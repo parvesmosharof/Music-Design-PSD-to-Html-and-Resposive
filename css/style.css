@@ -1,0 +1,419 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+
+
+body
+{
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+
+
+
+/*=================== common css ======================*/
+h2
+{
+    color: #fff;
+    font-size: 48px !important;
+    text-align: center!important;
+}
+p
+{
+
+	font-size: 14px;
+	color: #66778e;
+	line-height: 2.5;
+	padding: 10px 0px;
+}
+
+
+
+.bg-section{
+	background: #0a2345;
+}
+
+/*===================== header area =====================*/
+.navbar
+{
+	padding: 30px 0px !important;
+}
+
+.navbar-brand
+{
+    font-size: 30px !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+
+.navbar-brand:hover
+{
+	color: #2a5da3 !important;
+}
+.logo img
+{
+
+}
+.navbar-toggler
+{
+
+}
+
+.navbar-toggler .fa
+{
+	color: #2a5ea4;
+}
+
+.navbar-nav .nav-link 
+{
+    padding-right: 13px !important;
+    padding-left: 13px !important;
+    color: #204f87 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover 
+{
+	color: #fff; !important;
+}
+
+
+
+
+
+/*=============== content-section ==============*/
+.content-section
+{
+	padding: 50px 0px;
+}
+.Coeluso
+{
+	text-align: center;
+}
+.Coeluso p
+{
+	color: #2e66b2;
+    font-size: 18px;
+    margin: 20px 0px !important;
+}
+.content-section .Coeluso a
+{
+	display: inline-block;
+	color: #fff;
+	border: 1px solid #153b6d;
+	padding: 15px 35px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 25px;
+	text-decoration: none;
+	transition-duration: .5s;
+}
+.Coeluso a:hover
+{
+	background: #2a5da3;
+}
+
+
+
+
+/*============== Feature Section =============*/
+.feature-section
+{
+    background: url(../images/featurebg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    padding: 100px 0px;
+}
+.feature
+{
+	margin: 100px;
+	text-align: center;
+}
+.feature-section .row .col-md-4 
+{
+	transition-duration: .5s;
+}
+.feature-section .row .col-md-4 img 
+{
+	width: 75%;
+	height: 75%;
+	
+}
+.feature-section .row .col-md-4:hover
+{
+	z-index: 1;
+	transform: scale(1.2);
+	filter: hue-rotate(60deg);
+}
+
+
+
+
+/*================ music-section =================*/
+.music-section
+{
+
+}
+.music-section .row  div > img{
+	margin-left: -120px!important;
+}
+.music-section a
+{
+	display: inline-block;
+	color: #fff !important;
+	border: 1px solid #153b6d;
+	padding: 15px 35px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none !important;
+	transition-duration: .5s;
+}
+.music-section a:hover
+{
+	background: #2a5da3;
+}
+.music-section h2
+{
+    color: #fff;
+    font-size: 48px !important;
+    text-align: left !important;
+}
+
+
+
+
+
+
+/*==================== about-section =================*/
+.about-section
+{
+    padding: 150px 0px;
+}
+.about-section .row
+{
+
+}
+.about
+{
+    margin: 80px 0px 0px;
+}
+.about-section i
+{
+    color: #ff3334;
+    font-size: 30px;
+    display: block;
+}
+.about-section h5
+{
+    font-size: 24px;
+    color: #fff !important;
+    padding: 15px 0px;
+}
+.about-section p{}
+.about-section .img-fluid 
+{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*================= music-on-off-section ===============*/
+.music-on-off-section
+{
+	background: url(../images/musicall.png);
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position-x: right;
+	padding-bottom: 50px;
+}
+.music-on-off-section a
+{
+	display: inline-block;
+	color: #fff !important;
+	border: 1px solid #153b6d;
+	padding: 15px 35px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none !important;
+	transition-duration: .5s;
+}
+.music-on-off-section a:hover
+{
+	background: #2a5da3;
+}
+.music-on-off-section h2
+{
+	text-align: left !important;
+}
+
+
+
+
+/*================== contectetur-section ==================*/
+.contectetur-section
+{
+    background: #0a2345f7 url(../images/contentbg.png);
+    background-size: cover;
+    background-blend-mode: color-burn;
+}
+.contectetur
+{
+    text-align: center;
+    padding: 100px 0px;
+}
+.contectetur .img
+{
+    display: inline-flex;
+}
+.contectetur h6
+{
+    font-size: 24px;
+    color: #66778e;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.contectetur .img-fluid
+{
+    display: block;
+    padding: 15px;
+}
+.contectetur p
+{
+    font-size: 14px;
+    color: #66778e;
+    font-weight: 600;
+    padding: 15px;
+}
+
+
+
+
+/*================== discover-section ===============*/
+.discover-section
+{
+    background: #040811;
+    padding: 100px 0px;
+}
+.discover-section .discover
+{
+    text-align: center;
+}
+.discover-section .discover h3
+{
+    font-size: 36px;
+    color: #ffffff;
+}
+.discover-section .discover p{}
+
+
+.music-app
+{
+	text-align: center;
+	margin: 100px 150px;
+}
+.music-app .row
+{
+	padding: 50px;
+}
+.music-app .row .col-md-4
+{
+	transition-duration: .5s;
+	padding: 0px !important;
+}
+
+.music-app .row .col-md-4:hover
+{
+	z-index: 1;
+	transform: scale(1.25);
+	box-shadow: 0 25px 40px rgb(0,0,0,0.5);
+	filter: hue-rotate(45deg);
+
+}
+
+.music-app .row .col-md-4 img
+{
+	height: 100%;
+	width: 100%;
+}
+
+
+.discover-section .download
+{
+	text-align: center;
+}
+.discover-section .download a
+{
+	display: inline-block;
+	color: #fff;
+	border: 1px solid #153b6d;
+	padding: 15px 35px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 25px;
+	text-decoration: none;
+	transition-duration: .5s;
+}
+
+.discover-section .download a:hover
+{
+	background: #2a5da3;
+}
+
+
+
+
+
+/*=============== footer ================*/
+footer
+{
+	  background: #040811;
+}
+
+footer span
+{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #022E7B !important;
+    margin-bottom: 15px;
+}
+footer ul{}
+footer ul li
+{
+	padding: 15px 0px;
+}
+footer ul li a
+{
+    font-size: 14px;
+    color: #14396a !important;
+    font-weight: 800;
+    padding: 0px 20px 0px 0px !important;
+}
+footer .right
+{
+	text-align: right;
+}
+footer .right p
+{
+    color: #14396a;
+    font-weight: 500;
+}
+
+footer:hover ul li a:hover
+{
+	color: #fff !important;
+}
+
+
+
+/*================================================= THE  END ===================================================*/
