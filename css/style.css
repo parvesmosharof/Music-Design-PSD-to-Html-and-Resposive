@@ -24,6 +24,7 @@ p
 	color: #66778e;
 	line-height: 2.5;
 	padding: 10px 0px;
+	text-align: justify;
 }
 
 
@@ -399,12 +400,13 @@ footer ul li a
 }
 footer .right
 {
-	text-align: right;
+	
 }
 footer .right p
 {
     color: #14396a;
     font-weight: 500;
+    text-align: right;
 }
 
 footer:hover ul li a:hover
