@@ -334,7 +334,6 @@ p
 {
 	z-index: 1;
 	transform: scale(1.25);
-	box-shadow: 0 25px 40px rgb(0,0,0,0.5);
 	filter: hue-rotate(45deg);
 
 }
@@ -344,7 +343,10 @@ p
 	height: 100%;
 	width: 100%;
 }
-
+.music-app .row .col-md-4:hover img
+{
+	box-shadow: 0 25px 40px rgb(0,0,0,0.5);
+}
 
 .discover-section .download
 {
