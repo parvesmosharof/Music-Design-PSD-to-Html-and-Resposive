@@ -94,9 +94,10 @@ p
 }
 .Coeluso p
 {
-	color: #2e66b2;
-    font-size: 18px;
-    margin: 20px 0px !important;
+    	color: #2e66b2;
+	text-align: center;
+    	font-size: 18px;
+    	margin: 20px 0px !important;
 }
 .content-section .Coeluso a
 {
@@ -313,7 +314,10 @@ p
     font-size: 36px;
     color: #ffffff;
 }
-.discover-section .discover p{}
+.discover-section .discover p
+{
+	text-align: center;
+}
 
 
 .music-app
